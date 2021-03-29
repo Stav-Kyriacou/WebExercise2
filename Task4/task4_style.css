@@ -61,3 +61,5 @@ form .sameLine div{
 form .sameLine div button, form .sameLine div input, .fullInput{
     width: 100%;
 }
+
+/*Add padding to first and last name text inputs so that there is some space in between*/

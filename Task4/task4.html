@@ -4,18 +4,54 @@
 </head>
 <html>
     <body>
-        <div class="inputs">
-            <div>
-                <input type="text" placeholder="First Name">
-                <input type="text" placeholder="Last Name"><br><br>
-            </div>
-            <div>
-                <input type="text" placeholder="your@email.com"><br><br>
-            </div>
-            <div>
-                <input type="text" placeholder="*********"><br>
+        <form>
+
+            <!--Sign up buttons-->
+            <div class="sameLine">
+                <div>
+                    <button type="button"><img class="logo" src="images/facebook_logo.png"> Connect with Facebook</button>
+                </div>
+                <div>
+                    <button type="button"><img class="logo" src="images/twitter_logo.png"> Connect with Twitter</button>
+                </div>
             </div>
 
-        </div>
+            <div class="center">
+                <p class="info">Or sign up with</p>
+            </div>
+            <br>
+
+            <!--First and Last name Input-->
+            <div class="sameLine">
+                <div>
+                    <input type="text" placeholder="First Name">
+                </div>
+                <div>
+                    <input type="text" placeholder="Last Name">
+                </div>
+            </div>
+            <br>
+
+            <div>
+                <input tpye="text" class="fullInput" placeholder="your@email.com">
+            </div>
+            <br>
+            <div>
+                <input type="password" class="fullInput" placeholder="password">
+            </div>
+            <br>
+
+            <div>
+                <p class="info">By creating an account, you agree to our <a class="link" href="T&C">Terms & Conditions</a></p>
+            </div>
+            <div class="center">
+                <button type="button" class="createAccount">Create Account</button>
+            </div>
+            <br>
+            <div class="center">
+                <p class="info">Template by <a class="link" href="nothing">w3Layouts</a></p>
+            </div>
+
+        </form>
     </body>
 </html>

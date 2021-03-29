@@ -1,19 +1,63 @@
-body{
-    background-color: rgb(104, 104, 104);
-}
 
-.inputs{
-    border: 1px solid black;
+form{
     position: absolute;
-    transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    background-color: rgb(72, 75, 90);
     padding: 25px;
 }
-.inputs div input{
-    background-color: rgb(228, 228, 228);
+.connectButton{
+    border: 1px solid black;
+}
+form div div input{
     border: none;
     border-radius: none;
     padding: 10px 10px;
+}
+div .info{
+    color: white;
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.link{
+    color: rgb(128, 128, 255);
+    text-decoration: none;
+}
+
+.logo{
+    width: 16px;
+    height: 16px;
+    border: 1px solid black;
+    text-align: left;
+}
+
+
+form div button{
+    border: none;
+    border-radius: none;
+}
+form div .createAccount{
+    background-color:rgb(109, 184, 119);
+    width: 100%;
+}
+.center{
+    text-align: center;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+form .sameLine{
+    font-size: 0px;
+}
+form .sameLine div{
+    display: inline-block;
+    width: 50%;
+    font-size: 14px;
+}
+form .sameLine div button, form .sameLine div input, .fullInput{
     width: 100%;
 }
